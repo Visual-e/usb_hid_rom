@@ -1,0 +1,454 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+DeviceInfo          0x8               ./src/usbhidrom_main.o
+HidDevInfo          0x18              ./src/usbhidrom_main.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/cr_startup_lpc13.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/gpio.o
+ .text          0x00000000        0x0 ./src/gpio.o
+ .data          0x00000000        0x0 ./src/gpio.o
+ .bss           0x00000000        0x0 ./src/gpio.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x30 ./src/gpio.o
+ .rodata.LPC_GPIO
+                0x00000000       0x10 ./src/gpio.o
+ .text.GPIOInit
+                0x00000000       0x34 ./src/gpio.o
+ .text.GPIOSetInterrupt
+                0x00000000      0x3ac ./src/gpio.o
+ .text.GPIOIntEnable
+                0x00000000       0xc4 ./src/gpio.o
+ .text.GPIOIntDisable
+                0x00000000       0xcc ./src/gpio.o
+ .text.GPIOIntStatus
+                0x00000000       0xd0 ./src/gpio.o
+ .text.GPIOIntClear
+                0x00000000       0xc4 ./src/gpio.o
+ .debug_info    0x00000000      0x9c4 ./src/gpio.o
+ .debug_abbrev  0x00000000      0x207 ./src/gpio.o
+ .debug_aranges
+                0x00000000       0x50 ./src/gpio.o
+ .debug_ranges  0x00000000       0x40 ./src/gpio.o
+ .debug_macro   0x00000000       0x83 ./src/gpio.o
+ .debug_macro   0x00000000      0x86e ./src/gpio.o
+ .debug_macro   0x00000000       0x1c ./src/gpio.o
+ .debug_macro   0x00000000       0x22 ./src/gpio.o
+ .debug_macro   0x00000000       0x22 ./src/gpio.o
+ .debug_macro   0x00000000       0x44 ./src/gpio.o
+ .debug_macro   0x00000000       0xfd ./src/gpio.o
+ .debug_macro   0x00000000       0x22 ./src/gpio.o
+ .debug_macro   0x00000000      0x1df ./src/gpio.o
+ .debug_macro   0x00000000      0x7b7 ./src/gpio.o
+ .debug_macro   0x00000000      0x115 ./src/gpio.o
+ .debug_macro   0x00000000       0x22 ./src/gpio.o
+ .debug_line    0x00000000      0x313 ./src/gpio.o
+ .debug_str     0x00000000     0x6d66 ./src/gpio.o
+ .comment       0x00000000       0x6f ./src/gpio.o
+ .debug_frame   0x00000000      0x11c ./src/gpio.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbdesc.o
+ .text          0x00000000        0x0 ./src/usbdesc.o
+ .data          0x00000000        0x0 ./src/usbdesc.o
+ .bss           0x00000000        0x0 ./src/usbdesc.o
+ .debug_macro   0x00000000      0x86e ./src/usbdesc.o
+ .debug_macro   0x00000000       0x22 ./src/usbdesc.o
+ .debug_macro   0x00000000       0x22 ./src/usbdesc.o
+ .debug_macro   0x00000000       0x44 ./src/usbdesc.o
+ .debug_macro   0x00000000       0xfd ./src/usbdesc.o
+ .debug_macro   0x00000000       0x22 ./src/usbdesc.o
+ .debug_macro   0x00000000      0x1df ./src/usbdesc.o
+ .debug_macro   0x00000000      0x7b7 ./src/usbdesc.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./src/usbhidrom_main.o
+ .text          0x00000000        0x0 ./src/usbhidrom_main.o
+ .data          0x00000000        0x0 ./src/usbhidrom_main.o
+ .bss           0x00000000        0x0 ./src/usbhidrom_main.o
+ .debug_macro   0x00000000      0x86e ./src/usbhidrom_main.o
+ .debug_macro   0x00000000       0x1c ./src/usbhidrom_main.o
+ .debug_macro   0x00000000       0x22 ./src/usbhidrom_main.o
+ .debug_macro   0x00000000       0x22 ./src/usbhidrom_main.o
+ .debug_macro   0x00000000       0x44 ./src/usbhidrom_main.o
+ .debug_macro   0x00000000       0xfd ./src/usbhidrom_main.o
+ .debug_macro   0x00000000       0x22 ./src/usbhidrom_main.o
+ .debug_macro   0x00000000      0x1df ./src/usbhidrom_main.o
+ .debug_macro   0x00000000      0x7b7 ./src/usbhidrom_main.o
+ .debug_macro   0x00000000      0x115 ./src/usbhidrom_main.o
+ .debug_macro   0x00000000       0x16 ./src/usbhidrom_main.o
+ .debug_macro   0x00000000      0x1c6 ./src/usbhidrom_main.o
+ .debug_macro   0x00000000       0x3a ./src/usbhidrom_main.o
+ .debug_macro   0x00000000       0x22 ./src/usbhidrom_main.o
+ .debug_macro   0x00000000       0xbb ./src/usbhidrom_main.o
+ .group         0x00000000        0x8 ./Libraries/src/core_cm3.o
+ .group         0x00000000        0x8 ./Libraries/src/core_cm3.o
+ .group         0x00000000        0x8 ./Libraries/src/core_cm3.o
+ .group         0x00000000        0x8 ./Libraries/src/core_cm3.o
+ .group         0x00000000        0x8 ./Libraries/src/core_cm3.o
+ .group         0x00000000        0x8 ./Libraries/src/core_cm3.o
+ .text          0x00000000        0x0 ./Libraries/src/core_cm3.o
+ .data          0x00000000        0x0 ./Libraries/src/core_cm3.o
+ .bss           0x00000000        0x0 ./Libraries/src/core_cm3.o
+ .text.__get_PSP
+                0x00000000       0x10 ./Libraries/src/core_cm3.o
+ .text.__set_PSP
+                0x00000000        0xc ./Libraries/src/core_cm3.o
+ .text.__get_MSP
+                0x00000000       0x10 ./Libraries/src/core_cm3.o
+ .text.__set_MSP
+                0x00000000        0xc ./Libraries/src/core_cm3.o
+ .text.__get_BASEPRI
+                0x00000000       0x1c ./Libraries/src/core_cm3.o
+ .text.__set_BASEPRI
+                0x00000000       0x18 ./Libraries/src/core_cm3.o
+ .text.__get_PRIMASK
+                0x00000000       0x1c ./Libraries/src/core_cm3.o
+ .text.__set_PRIMASK
+                0x00000000       0x18 ./Libraries/src/core_cm3.o
+ .text.__get_FAULTMASK
+                0x00000000       0x1c ./Libraries/src/core_cm3.o
+ .text.__set_FAULTMASK
+                0x00000000       0x18 ./Libraries/src/core_cm3.o
+ .text.__get_CONTROL
+                0x00000000       0x1c ./Libraries/src/core_cm3.o
+ .text.__set_CONTROL
+                0x00000000       0x18 ./Libraries/src/core_cm3.o
+ .text.__REV    0x00000000       0x20 ./Libraries/src/core_cm3.o
+ .text.__REV16  0x00000000       0x20 ./Libraries/src/core_cm3.o
+ .text.__REVSH  0x00000000       0x20 ./Libraries/src/core_cm3.o
+ .text.__RBIT   0x00000000       0x20 ./Libraries/src/core_cm3.o
+ .text.__LDREXB
+                0x00000000       0x20 ./Libraries/src/core_cm3.o
+ .text.__LDREXH
+                0x00000000       0x20 ./Libraries/src/core_cm3.o
+ .text.__LDREXW
+                0x00000000       0x20 ./Libraries/src/core_cm3.o
+ .text.__STREXB
+                0x00000000       0x28 ./Libraries/src/core_cm3.o
+ .text.__STREXH
+                0x00000000       0x28 ./Libraries/src/core_cm3.o
+ .text.__STREXW
+                0x00000000       0x24 ./Libraries/src/core_cm3.o
+ .debug_info    0x00000000      0x52f ./Libraries/src/core_cm3.o
+ .debug_abbrev  0x00000000       0xb1 ./Libraries/src/core_cm3.o
+ .debug_aranges
+                0x00000000       0xc8 ./Libraries/src/core_cm3.o
+ .debug_ranges  0x00000000       0xb8 ./Libraries/src/core_cm3.o
+ .debug_macro   0x00000000       0x60 ./Libraries/src/core_cm3.o
+ .debug_macro   0x00000000      0x86e ./Libraries/src/core_cm3.o
+ .debug_macro   0x00000000       0x22 ./Libraries/src/core_cm3.o
+ .debug_macro   0x00000000       0x44 ./Libraries/src/core_cm3.o
+ .debug_macro   0x00000000       0xfd ./Libraries/src/core_cm3.o
+ .debug_macro   0x00000000       0x22 ./Libraries/src/core_cm3.o
+ .debug_macro   0x00000000      0x1df ./Libraries/src/core_cm3.o
+ .debug_line    0x00000000      0x320 ./Libraries/src/core_cm3.o
+ .debug_str     0x00000000     0x32c9 ./Libraries/src/core_cm3.o
+ .comment       0x00000000       0x6f ./Libraries/src/core_cm3.o
+ .debug_frame   0x00000000      0x320 ./Libraries/src/core_cm3.o
+ .ARM.attributes
+                0x00000000       0x33 ./Libraries/src/core_cm3.o
+ .group         0x00000000        0x8 ./Libraries/src/system_LPC13xx.o
+ .group         0x00000000        0x8 ./Libraries/src/system_LPC13xx.o
+ .group         0x00000000        0x8 ./Libraries/src/system_LPC13xx.o
+ .group         0x00000000        0x8 ./Libraries/src/system_LPC13xx.o
+ .group         0x00000000        0x8 ./Libraries/src/system_LPC13xx.o
+ .group         0x00000000        0x8 ./Libraries/src/system_LPC13xx.o
+ .group         0x00000000        0x8 ./Libraries/src/system_LPC13xx.o
+ .group         0x00000000        0x8 ./Libraries/src/system_LPC13xx.o
+ .group         0x00000000        0x8 ./Libraries/src/system_LPC13xx.o
+ .text          0x00000000        0x0 ./Libraries/src/system_LPC13xx.o
+ .data          0x00000000        0x0 ./Libraries/src/system_LPC13xx.o
+ .bss           0x00000000        0x0 ./Libraries/src/system_LPC13xx.o
+ .text.__NOP    0x00000000       0x10 ./Libraries/src/system_LPC13xx.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./Libraries/src/system_LPC13xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x264 ./Libraries/src/system_LPC13xx.o
+ .text.SystemInit
+                0x00000000      0x124 ./Libraries/src/system_LPC13xx.o
+ .debug_info    0x00000000      0x4c4 ./Libraries/src/system_LPC13xx.o
+ .debug_abbrev  0x00000000      0x10d ./Libraries/src/system_LPC13xx.o
+ .debug_aranges
+                0x00000000       0x30 ./Libraries/src/system_LPC13xx.o
+ .debug_ranges  0x00000000       0x20 ./Libraries/src/system_LPC13xx.o
+ .debug_macro   0x00000000      0x147 ./Libraries/src/system_LPC13xx.o
+ .debug_macro   0x00000000      0x86e ./Libraries/src/system_LPC13xx.o
+ .debug_macro   0x00000000       0x22 ./Libraries/src/system_LPC13xx.o
+ .debug_macro   0x00000000       0x44 ./Libraries/src/system_LPC13xx.o
+ .debug_macro   0x00000000       0xfd ./Libraries/src/system_LPC13xx.o
+ .debug_macro   0x00000000       0x22 ./Libraries/src/system_LPC13xx.o
+ .debug_macro   0x00000000      0x1df ./Libraries/src/system_LPC13xx.o
+ .debug_macro   0x00000000       0x1c ./Libraries/src/system_LPC13xx.o
+ .debug_macro   0x00000000      0x7d5 ./Libraries/src/system_LPC13xx.o
+ .debug_macro   0x00000000      0x115 ./Libraries/src/system_LPC13xx.o
+ .debug_line    0x00000000      0x2a4 ./Libraries/src/system_LPC13xx.o
+ .debug_str     0x00000000     0x6c70 ./Libraries/src/system_LPC13xx.o
+ .comment       0x00000000       0x6f ./Libraries/src/system_LPC13xx.o
+ .debug_frame   0x00000000       0x7c ./Libraries/src/system_LPC13xx.o
+ .ARM.attributes
+                0x00000000       0x33 ./Libraries/src/system_LPC13xx.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc8          0x10000180         0x00001e80         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc13.o
+LOAD ./src/gpio.o
+LOAD ./src/usbdesc.o
+LOAD ./src/usbhidrom_main.o
+LOAD ./Libraries/src/core_cm3.o
+LOAD ./Libraries/src/system_LPC13xx.o
+START GROUP
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m\libgcc.a
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m\libc.a
+LOAD d:/dev/arm_toolchain/arm_gcc/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m\libm.a
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10002000                __top_RamLoc8 = 0x10002000
+
+.text           0x00000000      0x524
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x124 ./src/cr_startup_lpc13.o
+                0x00000000                g_pfnVectors
+ *(.text*)
+ .text.Reset_Handler
+                0x00000124       0x74 ./src/cr_startup_lpc13.o
+                0x00000124                ResetISR
+                0x00000124                Reset_Handler
+ .text.NMI_Handler
+                0x00000198        0x8 ./src/cr_startup_lpc13.o
+                0x00000198                NMI_Handler
+ .text.HardFault_Handler
+                0x000001a0        0x8 ./src/cr_startup_lpc13.o
+                0x000001a0                HardFault_Handler
+ .text.MemManage_Handler
+                0x000001a8        0x8 ./src/cr_startup_lpc13.o
+                0x000001a8                MemManage_Handler
+ .text.BusFault_Handler
+                0x000001b0        0x8 ./src/cr_startup_lpc13.o
+                0x000001b0                BusFault_Handler
+ .text.UsageFault_Handler
+                0x000001b8        0x8 ./src/cr_startup_lpc13.o
+                0x000001b8                UsageFault_Handler
+ .text.SVCall_Handler
+                0x000001c0        0x8 ./src/cr_startup_lpc13.o
+                0x000001c0                SVCall_Handler
+ .text.DebugMon_Handler
+                0x000001c8        0x8 ./src/cr_startup_lpc13.o
+                0x000001c8                DebugMon_Handler
+ .text.PendSV_Handler
+                0x000001d0        0x8 ./src/cr_startup_lpc13.o
+                0x000001d0                PendSV_Handler
+ .text.SysTick_Handler
+                0x000001d8        0x8 ./src/cr_startup_lpc13.o
+                0x000001d8                SysTick_Handler
+ .text.IntDefaultHandler
+                0x000001e0        0x8 ./src/cr_startup_lpc13.o
+                0x000001e0                TIMER16_0_IRQHandler
+                0x000001e0                UART_IRQHandler
+                0x000001e0                TIMER32_0_IRQHandler
+                0x000001e0                TIMER32_1_IRQHandler
+                0x000001e0                PIOINT1_IRQHandler
+                0x000001e0                SSP_IRQHandler
+                0x000001e0                TIMER16_1_IRQHandler
+                0x000001e0                USB_FIQHandler
+                0x000001e0                ADC_IRQHandler
+                0x000001e0                PIOINT2_IRQHandler
+                0x000001e0                BOD_IRQHandler
+                0x000001e0                WAKEUP_IRQHandler
+                0x000001e0                PIOINT0_IRQHandler
+                0x000001e0                I2C_IRQHandler
+                0x000001e0                WDT_IRQHandler
+                0x000001e0                PIOINT3_IRQHandler
+                0x000001e0                FMC_IRQHandler
+ .text.__WFI    0x000001e8       0x10 ./src/usbhidrom_main.o
+ .text.GPIOSetValue
+                0x000001f8       0x38 ./src/usbhidrom_main.o
+ .text.GPIOSetDir
+                0x00000230       0x70 ./src/usbhidrom_main.o
+ .text.GetInReport
+                0x000002a0       0x4c ./src/usbhidrom_main.o
+                0x000002a0                GetInReport
+ .text.SetOutReport
+                0x000002ec       0x98 ./src/usbhidrom_main.o
+                0x000002ec                SetOutReport
+ .text.main     0x00000384      0x108 ./src/usbhidrom_main.o
+                0x00000384                main
+ .text.USB_IRQHandler
+                0x0000048c       0x18 ./src/usbhidrom_main.o
+                0x0000048c                USB_IRQHandler
+ *(.rodata*)
+ .rodata.USB_StringDescriptor
+                0x000004a4       0x70 ./src/usbdesc.o
+                0x000004a4                USB_StringDescriptor
+ .rodata.LPC_GPIO
+                0x00000514       0x10 ./src/usbhidrom_main.o
+
+.glue_7         0x00000524        0x0
+ .glue_7        0x00000524        0x0 linker stubs
+
+.glue_7t        0x00000524        0x0
+ .glue_7t       0x00000524        0x0 linker stubs
+
+.vfp11_veneer   0x00000524        0x0
+ .vfp11_veneer  0x00000524        0x0 linker stubs
+
+.v4_bx          0x00000524        0x0
+ .v4_bx         0x00000524        0x0 linker stubs
+
+.iplt           0x00000524        0x0
+ .iplt          0x00000524        0x0 ./src/cr_startup_lpc13.o
+
+.rel.dyn        0x00000524        0x0
+ .rel.iplt      0x00000524        0x0 ./src/cr_startup_lpc13.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000524                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000524                __exidx_end = .
+                0x00000524                _etext = .
+
+.data           0x10000180        0x4 load address 0x00000524
+                0x10000180                _data = .
+ *(vtable)
+ *(.data*)
+ .data.rom      0x10000180        0x4 ./src/usbhidrom_main.o
+                0x10000180                rom
+                0x10000184                _edata = .
+
+.igot.plt       0x10000184        0x0 load address 0x00000528
+ .igot.plt      0x10000184        0x0 ./src/cr_startup_lpc13.o
+
+.bss            0x10000184       0x20 load address 0x00000528
+                0x10000184                _bss = .
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x10000184       0x20 ./src/usbhidrom_main.o
+                0x10000184                DeviceInfo
+                0x1000018c                HidDevInfo
+                0x100001a4                _ebss = .
+
+.cr_heap        0x100001a4        0x0
+                0x100001a4                end = .
+                0x100001a4                _pvHeapStart = .
+                0x10002000                _vRamTop = __top_RamLoc8
+                0x10001ff0                _vStackTop = (_vRamTop - 0x10)
+OUTPUT(usb_hid_rom.elf elf32-littlearm)
+
+.debug_info     0x00000000      0xafe
+ .debug_info    0x00000000      0x179 ./src/cr_startup_lpc13.o
+ .debug_info    0x00000179       0xbc ./src/usbdesc.o
+ .debug_info    0x00000235      0x8c9 ./src/usbhidrom_main.o
+
+.debug_abbrev   0x00000000      0x3ac
+ .debug_abbrev  0x00000000       0xd3 ./src/cr_startup_lpc13.o
+ .debug_abbrev  0x000000d3       0x78 ./src/usbdesc.o
+ .debug_abbrev  0x0000014b      0x261 ./src/usbhidrom_main.o
+
+.debug_aranges  0x00000000       0xd8
+ .debug_aranges
+                0x00000000       0x70 ./src/cr_startup_lpc13.o
+ .debug_aranges
+                0x00000070       0x18 ./src/usbdesc.o
+ .debug_aranges
+                0x00000088       0x50 ./src/usbhidrom_main.o
+
+.debug_ranges   0x00000000       0xa0
+ .debug_ranges  0x00000000       0x60 ./src/cr_startup_lpc13.o
+ .debug_ranges  0x00000060       0x40 ./src/usbhidrom_main.o
+
+.debug_macro    0x00000000      0xe39
+ .debug_macro   0x00000000       0x1d ./src/cr_startup_lpc13.o
+ .debug_macro   0x0000001d      0x86e ./src/cr_startup_lpc13.o
+ .debug_macro   0x0000088b       0xae ./src/usbdesc.o
+ .debug_macro   0x00000939       0x1c ./src/usbdesc.o
+ .debug_macro   0x00000955      0x115 ./src/usbdesc.o
+ .debug_macro   0x00000a6a       0x16 ./src/usbdesc.o
+ .debug_macro   0x00000a80      0x1c6 ./src/usbdesc.o
+ .debug_macro   0x00000c46       0x3a ./src/usbdesc.o
+ .debug_macro   0x00000c80       0xbb ./src/usbdesc.o
+ .debug_macro   0x00000d3b       0xe2 ./src/usbhidrom_main.o
+ .debug_macro   0x00000e1d       0x1c ./src/usbhidrom_main.o
+
+.debug_line     0x00000000      0x68c
+ .debug_line    0x00000000      0x135 ./src/cr_startup_lpc13.o
+ .debug_line    0x00000135      0x22d ./src/usbdesc.o
+ .debug_line    0x00000362      0x32a ./src/usbhidrom_main.o
+
+.debug_str      0x00000000     0x77f0
+ .debug_str     0x00000000     0x25c9 ./src/cr_startup_lpc13.o
+                               0x25db (size before relaxing)
+ .debug_str     0x000025c9     0x4cd5 ./src/usbdesc.o
+                               0x72b1 (size before relaxing)
+ .debug_str     0x0000729e      0x552 ./src/usbhidrom_main.o
+                               0x782c (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e ./src/cr_startup_lpc13.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./src/usbdesc.o
+ .comment       0x0000006e       0x6f ./src/usbhidrom_main.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./src/cr_startup_lpc13.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/usbdesc.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/usbhidrom_main.o
+
+.debug_frame    0x00000000      0x228
+ .debug_frame   0x00000000      0x120 ./src/cr_startup_lpc13.o
+ .debug_frame   0x00000120      0x108 ./src/usbhidrom_main.o
